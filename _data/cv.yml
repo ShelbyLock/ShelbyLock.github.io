@@ -1,6 +1,6 @@
 cv:
   name: Qianying Liao
-  label: Doctoral Researcher, imec-DistriNet, KU Leuven
+  label: Doctoral Researcher, DistriNet, KU Leuven
   email: qianying.liao@kuleuven.be
   location: Leuven, Belgium
   image: ""
@@ -26,7 +26,7 @@ cv:
         end_date: 2027
         highlights:
           - Supervised by Prof. Dr. Wouter Joosen and Prof. Dr. Dimitri Van Landuyt.
-          - Affiliated with the imec-DistriNet research group.
+          - Affiliated with the DistriNet research group.
 
       - institution: University of Coimbra
         location: Coimbra, Portugal
@@ -44,7 +44,7 @@ cv:
         end_date: 2018
 
     Experience:
-      - company: imec-DistriNet, Department of Computer Science, KU Leuven
+      - company: DistriNet, Department of Computer Science, KU Leuven
         position: Doctoral Researcher
         location: Leuven, Belgium
         url: https://distrinet.cs.kuleuven.be/

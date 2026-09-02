@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Doctoral Researcher at <a href="https://distrinet.cs.kuleuven.be/">imec-DistriNet</a>, Department of Computer Science, <a href="https://www.kuleuven.be/">KU Leuven</a>.
+subtitle: Doctoral Researcher at <a href="https://distrinet.cs.kuleuven.be/">DistriNet</a>, Department of Computer Science, <a href="https://www.kuleuven.be/">KU Leuven</a>.
 
 profile:
   align: right
@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Doctoral Researcher at the [imec-DistriNet](https://distrinet.cs.kuleuven.be/) Research Group of the Computer Science Department at [KU Leuven](https://www.kuleuven.be/). My work is on **Privacy by Design for Learning-based Approaches in Complex Data Ecosystems**, under the supervision of Prof. Dr. [Wouter Joosen](https://distrinet.cs.kuleuven.be/people/WouterJoosen) and Prof. Dr. [Dimitri Van Landuyt](https://www.kuleuven.be/wieiswie/nl/person/00046781).
+I am a Doctoral Researcher at the [DistriNet](https://distrinet.cs.kuleuven.be/) Research Group of the Computer Science Department at [KU Leuven](https://www.kuleuven.be/). My work is on **Privacy by Design for Learning-based Approaches in Complex Data Ecosystems**, under the supervision of Prof. Dr. [Wouter Joosen](https://distrinet.cs.kuleuven.be/people/WouterJoosen) and Prof. Dr. [Dimitri Van Landuyt](https://www.kuleuven.be/wieiswie/nl/person/00046781).
 
 My research asks how privacy can be engineered into data-driven systems from the start rather than bolted on afterwards. Recent work spans privacy threat modeling for generative AI, the evaluation and management of synthetic tabular data, and privacy-preserving and federated machine learning.
