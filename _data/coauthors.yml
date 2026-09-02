@@ -1,0 +1,26 @@
+# Co-author names listed here become links in the publications list.
+# Keyed by lowercase surname; `firstname` lists every spelling used in papers.bib.
+
+"joosen":
+  - firstname: ["Wouter", "W."]
+    url: https://distrinet.cs.kuleuven.be/people/WouterJoosen
+
+"van landuyt":
+  - firstname: ["Dimitri", "D."]
+    url: https://distrinet.cs.kuleuven.be/people/DimitriVanLanduyt
+
+"preuveneers":
+  - firstname: ["Davy", "D."]
+    url: https://distrinet.cs.kuleuven.be/people/DavyPreuveneers
+
+"sion":
+  - firstname: ["Laurens", "L."]
+    url: https://distrinet.cs.kuleuven.be/people/LaurensSion
+
+"desmet":
+  - firstname: ["Lieven", "L."]
+    url: https://distrinet.cs.kuleuven.be/people/LievenDesmet
+
+"bellemans":
+  - firstname: ["Jonah", "J."]
+    url: https://distrinet.cs.kuleuven.be/people/JonahBellemans

@@ -1,0 +1,35 @@
+"SOUPS":
+  url: https://www.usenix.org/conference/soups2026
+  color: "#7b1fa2"
+
+"ARES":
+  url: https://www.ares-conference.eu/
+  color: "#00695c"
+
+"DBSec":
+  url: https://www.ifip1110.org/
+  color: "#1565c0"
+
+"DMSSAI":
+  color: "#455a64"
+
+"ICSTW":
+  url: https://conf.researchr.org/home/icst-2025
+  color: "#0277bd"
+
+"MCP":
+  url: https://www.mcponline.org/
+  color: "#2e7d32"
+
+"IJCNN":
+  url: https://www.ijcnn.org/
+  color: "#c62828"
+
+"PRDC":
+  color: "#ad1457"
+
+"ISSREW":
+  color: "#5d4037"
+
+"Book Chapter":
+  color: "#37474f"

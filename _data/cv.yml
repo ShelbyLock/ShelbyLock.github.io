@@ -1,0 +1,99 @@
+cv:
+  name: Qianying Liao
+  label: Doctoral Researcher, imec-DistriNet, KU Leuven
+  email: qianying.liao@kuleuven.be
+  location: Leuven, Belgium
+  image: ""
+  summary: >
+    Doctoral researcher working on privacy by design for learning-based approaches in complex
+    data ecosystems, with a focus on privacy threat modeling for generative AI, synthetic
+    tabular data, and privacy-preserving and federated machine learning.
+
+  social_networks:
+    - network: GitHub
+      username: ShelbyLock
+    - network: LinkedIn
+      username: rqliao
+
+  sections:
+    Education:
+      - institution: KU Leuven
+        location: Leuven, Belgium
+        url: https://www.kuleuven.be/
+        area: Computer Science — Privacy by Design for Learning-based Approaches in Complex Data Ecosystems
+        studyType: PhD
+        start_date: 2023
+        end_date: 2027
+        highlights:
+          - Supervised by Prof. Dr. Wouter Joosen and Dr. Dimitri Van Landuyt.
+          - Affiliated with the imec-DistriNet research group.
+
+      - institution: University of Coimbra
+        location: Coimbra, Portugal
+        url: https://www.uc.pt/
+        area: Software Engineering
+        studyType: MSc
+        start_date: 2018
+        end_date: 2020
+
+      - institution: Minzu University of China
+        location: Beijing, China
+        area: Computer Science and Engineering
+        studyType: BSc
+        start_date: 2014
+        end_date: 2018
+
+    Experience:
+      - company: imec-DistriNet, Department of Computer Science, KU Leuven
+        position: Doctoral Researcher
+        location: Leuven, Belgium
+        url: https://distrinet.cs.kuleuven.be/
+        start_date: 2023
+        end_date: present
+        summary: >
+          Research on privacy by design for data-driven systems: privacy threat modeling for
+          generative AI, evaluation and management of synthetic tabular data, and
+          privacy-preserving and federated machine learning.
+
+      - company: University of Coimbra
+        position: Project Research Fellow (CMU-Portugal associated project)
+        location: Coimbra, Portugal
+        url: https://www.uc.pt/
+        start_date: 2020-09
+        end_date: 2022-09
+        summary: >
+          Research fellow on CAMELOT, an autonomic platform for machine learning using
+          anonymised data, run in co-promotion by Feedzai, the University of Coimbra,
+          Instituto Superior Técnico, the Faculty of Sciences of the University of Lisbon
+          and Carnegie Mellon University.
+        highlights:
+          - Built HERB and HERB+, privacy-preserving machine learning frameworks for tree-based models over vertically distributed data using homomorphic encryption.
+
+    Interests:
+      - name: Privacy engineering
+        icon: fa-solid fa-shield-halved
+        keywords: "Privacy by design, privacy threat modeling, LINDDUN, GenAI privacy"
+
+      - name: Synthetic data
+        icon: fa-solid fa-table
+        keywords: "Synthetic tabular data, privacy metrics, utility evaluation, data publication"
+
+      - name: Privacy-preserving machine learning
+        icon: fa-solid fa-lock
+        keywords: "Federated learning, homomorphic encryption, membership inference, collaborative learning"
+
+    Languages:
+      - name: Cantonese
+        summary: "Native or bilingual proficiency"
+
+      - name: Mandarin
+        summary: "Native or bilingual proficiency"
+
+      - name: English
+        summary: "Full professional proficiency"
+
+      - name: Portuguese
+        summary: "Elementary proficiency"
+
+      - name: Japanese
+        summary: "Limited working proficiency"
