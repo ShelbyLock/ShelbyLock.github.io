@@ -1,6 +1,5 @@
 ---
 ---
-
 @inproceedings{liao2026privacy,
   abbr        = {SOUPS},
   bibtex_show = {true},
@@ -13,11 +12,11 @@
   publisher   = {USENIX Association},
   address     = {Hannover, Germany},
   arxiv       = {2603.06051},
-  abstract    = {As generative AI (GenAI) systems become increasingly prevalent across various technological stacks, the question of how such systems handle sensitive and personal data flows becomes increasingly important. We present an engineer-oriented privacy threat modeling framework for GenAI, built on LINDDUN and grounded in a systematic review of the GenAI privacy literature together with a hands-on analysis of a GenAI chatbot system.},
+  abstract    = {As generative AI (GenAI) systems become increasingly prevalent across various technological stacks, the question of how such systems handle sensitive and personal data flows becomes increasingly important. Specifically, both the ability to harness and process large swaths of information as well as their stochastic nature raise key concerns related to both security and privacy. Unfortunately, while some of the traditional security threat modeling can effectively identify certain violations, privacy-related issues are often overlooked. To respond to these challenges, we introduce a novel domain-specific privacy threat modeling framework to support the privacy threat analysis of GenAI-based applications. This framework is constructed through a two-pronged approach: (i) a systematic review of the emerging literature on GenAI privacy threats, and (ii) a case-driven application to a representative Chatbot system. These efforts yield a foundational GenAI privacy threat modeling framework built on LINDDUN. The new framework extends three out of the seven privacy threat types of LINDDUN and introduces 100 GenAI examples to the entire knowledge base. Its effectiveness is validated on an AI Agent system, which demonstrates that a comprehensive privacy analysis can be supported by the new framework.},
   annotation  = {* A preprint of this work is available on arXiv as <em>A LINDDUN-based Privacy Threat Modeling Framework for GenAI</em>.},
-  selected    = {true}
+  selected    = {true},
+  html        = {https://www.usenix.org/conference/soups2026/presentation/liao}
 }
-
 @inproceedings{verdonck2026unified,
   abbr        = {ARES},
   bibtex_show = {true},
@@ -32,7 +31,6 @@
   annotation  = {* Equal contribution with Jenno Verdonck; author order determined by coin flip.},
   selected    = {true}
 }
-
 @article{gunnemann2025dagstuhl,
   abbr        = {Dagstuhl},
   bibtex_show = {true},
@@ -46,9 +44,9 @@
   month       = {November},
   publisher   = {Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
   doi         = {10.4230/DagRep.15.11.87},
-  html        = {https://drops.dagstuhl.de/entities/document/10.4230/DagRep.15.11.87}
+  html        = {https://drops.dagstuhl.de/entities/document/10.4230/DagRep.15.11.87},
+  abstract    = {Large Language Models (LLMs) have rapidly evolved from experimental systems capable of generating simple text to powerful general-purpose tools that solve exam-level problems, assist human experts, summarize complex documents, and write code, leading to their widespread deployment in production environments to improve productivity. Their rapid adoption has outpaced scientific understanding of the associated security and privacy risks, creating a growing gap between real-world use and trust in LLM-based applications. Unlike traditional machine learning models, LLMs are inherently general-purpose, operate at unprecedented scale, are often proprietary, and are accessed through interactive dialog interfaces. This makes their behavior difficult to predict and introduces novel attack surfaces and emerging phenomena such as hallucinations. Existing methods and analyzes for conventional machine learning are insufficient to cope with these aspects. So, this Dagstuhl Seminar "Security and Privacy of Large Language Models" (25461) aimed to initiate a systematic scientific discussion on the security and privacy of language models by bringing together researchers from AI, security, privacy, and natural language processing to address three central questions: how safe and secure are LLMs in adversarial environments; to what extent users’ privacy may be at risk when interacting with LLMs; and what other categories of societal impact may arise from the rapid advancement of LLM technologies. The seminar sought to systematize existing knowledge, identify high-risk applications and prevalent attack vectors, discuss defense strategies and deployment challenges, and outline directions for future research in LLM security and privacy.}
 }
-
 @incollection{liao2025empowering,
   abbr        = {Book Chapter},
   bibtex_show = {true},
@@ -61,9 +59,11 @@
   year        = {2025},
   month       = {October},
   publisher   = {IOS Press},
-  selected    = {true}
+  selected    = {true},
+  abstract    = {The trend to support healthcare outside of the premises and control of health institutions has given rise to a diversity of devices (e.g. wearables), services, and players contributing to the ecosystem. In consequence, health-related and medical data are frequently dispersed across multiple institutions and devices, posing a significant challenge to comprehensive data analysis and exploration for AI-driven research on new medicines or treatments. Centralizing such sensitive data is often unachievable due to the rigorous security and privacy demands imposed by various stakeholders, including patients, general practitioners, and pharmaceutical researchers. The decentralized and dispersed nature of healthcare data, in combination with stringent regulatory constraints such as HIPAA and GDPR, necessitate innovative approaches to collaborative healthcare research. Federated learning is a promising class of solutions to harness the collective intelligence of diverse datasets by allowing collaborative model training across decentralized data sources. Despite the many privacy-enhancing techniques proposed to ensure the confidentiality of data and intellectual property, this chapter discusses and illustrates the challenges of leveraging shared representations and knowledge transfer between smart health applications while addressing the intricacies of data fragmentation, security, and privacy.},
+  doi         = {10.3233/SHTI251441},
+  html        = {https://ebooks.iospress.nl/doi/10.3233/SHTI251441}
 }
-
 @inproceedings{liao2025chameleon,
   abbr        = {DBSec},
   bibtex_show = {true},
@@ -78,9 +78,9 @@
   address     = {Gjøvik, Norway},
   doi         = {10.1007/978-3-031-96590-6_3},
   html        = {https://link.springer.com/chapter/10.1007/978-3-031-96590-6_3},
-  selected    = {true}
+  selected    = {true},
+  abstract    = {The data economy thrives on data-centric collaboration between organizations. However, open data sharing remains a pipe dream without addressing pragmatic, regulatory, and strategic concerns – which include data protection and confidentiality. Generative artificial intelligence supports the production of realistic synthetic datasets on demand, and is a promising technology to alleviate such concerns. However, the replacement of an original dataset with a synthetic dataset incurs a specific trade-off between utility and privacy, and the appropriateness of this trade-off is highly context- and application-dependent. Manually establishing and managing different synthetic generators that have diverging properties is error-prone and time-consuming, lacks flexibility, and thus is costly and impractical. This paper introduces Data Chameleon, a novel self-adaptive data management architecture for different synthetic data generators. Data Chameleon adaptively samples from different synthetic data generators in function of the data request at hand. Furthermore, in a longer-term adaptation loop, Data Chameleon monitors and evaluates the overall suitability of the available generators, to monitor evolutions in data demand, or possible concept drifts. Based on this, the Chameleon autonomously decides to re-train existing generators, or instantiate additional ones in a self-adaptive manner. The Data Chameleon architecture enhances the practical applicability of synthetic data generation, enabling more efficient and secure data sharing in real-world scenarios.}
 }
-
 @inproceedings{liao2025golden,
   abbr        = {DeMeSSAI},
   bibtex_show = {true},
@@ -88,11 +88,11 @@
   author      = {Liao, Qianying and Van Landuyt, Dimitri and Joosen, Wouter},
   booktitle   = {4th International Workshop on Designing and Measuring Security in Systems with AI (DeMeSSAI)},
   year        = {2025},
-  month       = {April},
+  month       = {July},
   address     = {Venice, Italy},
-  annotation  = {* Extended abstract.}
+  annotation  = {* Extended abstract.},
+  html        = {https://demessai.github.io/2025/index.html}
 }
-
 @inproceedings{liao2025common,
   abbr        = {ICSTW},
   bibtex_show = {true},
@@ -103,9 +103,11 @@
   year        = {2025},
   publisher   = {IEEE},
   address     = {Naples, Italy},
-  selected    = {true}
+  selected    = {true},
+  abstract    = {Distributed Collaborative Machine Learning (DCML) enables collaborative model training without the need to reveal or share datasets. However, its implementation incurs complexities in balancing performance, efficiency, and security and privacy. Different architectural approaches in how the learning can be distributed and coordinated over different parties have emerged, leading to significant diversity. Current academic work often lacks a comprehensive evaluation of the diverse architectural DCML approaches, which in turn hinders objective comparison of different DCML approaches and impedes broader adoption. This paper highlights the need for a general and holistic evaluation framework for DCML approaches, and proposes a number of relevant evaluation metrics and criteria.},
+  doi         = {10.1109/ICSTW64639.2025.10962497},
+  html        = {https://ieeexplore.ieee.org/document/10962497}
 }
-
 @article{liang2024lafem,
   abbr        = {MCP},
   bibtex_show = {true},
@@ -117,9 +119,11 @@
   pages       = {100700},
   year        = {2024},
   month       = {January},
-  publisher   = {Elsevier}
+  publisher   = {Elsevier},
+  abstract    = {Protein lysine acetylation is a critical post-translational modification involved in a wide range of biological processes. To date, about 20,000 acetylation sites of Homo sapiens were identified through mass spectrometry–based proteomic technology, but more than 95% of them have unclear functional annotations because of the lack of existing prioritization strategy to assess the functional importance of the acetylation sites on large scale. Hence, we established a lysine acetylation functional evaluating model (LAFEM) by considering eight critical features surrounding lysine acetylation site to high-throughput estimate the functional importance of given acetylation sites. This was achieved by selecting one of the random forest models with the best performance in 10-fold cross-validation on undersampled training dataset. The global analysis demonstrated that the molecular environment of acetylation sites with high acetylation functional scores (AFSs) mainly had the features of larger solvent-accessible surface area, stronger hydrogen bonding–donating abilities, near motif and domain, higher homology, and disordered degree. Importantly, LAFEM performed well in validation dataset and acetylome, showing good accuracy to screen out fitness directly relevant acetylation sites and assisting to explain the core reason for the difference between biological models from the perspective of acetylome. We further used cellular experiments to confirm that, in nuclear casein kinase and cyclin-dependent kinase substrate 1, acetyl-K35 with higher AFS was more important than acetyl-K9 with lower AFS in the proliferation of A549 cells. LAFEM provides a prioritization strategy to large scale discover the fitness directly relevant acetylation sites, which constitutes an unprecedented resource for better understanding of functional acetylome.},
+  doi         = {10.1016/j.mcpro.2023.100700},
+  html        = {https://www.mcponline.org/article/S1535-9476(23)00211-6/fulltext}
 }
-
 @inproceedings{liao2022herb,
   abbr        = {IJCNN},
   bibtex_show = {true},
@@ -136,7 +140,6 @@
   abstract    = {We address private learning and inference for the Weighted Random Forest model when data records are vertically distributed among multiple sites. We contribute efficient collaborative algorithms for computing the impurity of decision tree nodes while protecting all intermediate values, a learning protocol based on the Paillier Cryptosystem and Digital Envelopes, and an inference protocol based on Look-up Tables.},
   selected    = {true}
 }
-
 @inproceedings{liao2022herbplus,
   abbr        = {PRDC},
   bibtex_show = {true},
@@ -149,9 +152,9 @@
   publisher   = {IEEE Computer Society},
   address     = {Beijing, China},
   html        = {https://ieeexplore.ieee.org/document/10027840/},
-  abstract    = {HERB+ is a confidential learning framework for tree-based models under vertically dispersed data. It presents a range of privacy-preserved, distributed tree-based algorithms — Decision Tree, Random Forest, and Gradient Boosting Decision Trees for both classification and regression — and discusses the use of Fully Homomorphic Encryption during training.}
+  abstract    = {HERB+ is a confidential learning framework for tree-based models under vertically dispersed data. It presents a range of privacy-preserved, distributed tree-based algorithms — Decision Tree, Random Forest, and Gradient Boosting Decision Trees for both classification and regression — and discusses the use of Fully Homomorphic Encryption during training.},
+  doi         = {10.1109/PRDC55274.2022.00035}
 }
-
 @inproceedings{liao2020modelling,
   abbr        = {ISSREW},
   bibtex_show = {true},
@@ -164,5 +167,6 @@
   publisher   = {IEEE},
   address     = {Coimbra, Portugal},
   doi         = {10.1109/ISSREW51248.2020.00059},
-  html        = {https://ieeexplore.ieee.org/document/9307648}
+  html        = {https://ieeexplore.ieee.org/document/9307648},
+  abstract    = {The need for rapid and efficient software development pushes the demand for automation in the phases of build, test, and release. Thereby, the methodology of Continuous Integration and Continuous Deployment (CI/CD) emerges, which then gives birth to a set of CI/CD enabling services, such as Travis CI and Jenkins. Those services facilitate the automatic compilation, connection tracking, and packaging of new features. They not only incorporate playgrounds for testing and functionality verification but also enable the final delivery.Poor understanding and execution in CI/CD operations can result in slowing and even halting the pace of a software project. Many bottlenecks of CI/CD pipeline might occur due to its incorrect configurations, i.e. the inadequate level of automation, the unsuitable load capacity and the suboptimal queueing strategy. However, understanding the actual CI/CD pipeline is hard since its performance varies significantly with different hosting machines, technologies and plugins. On the other hand, finding a way to analyse and improve the settings of CI/CD pipeline brings great managerial and economic benefits since an optimal configuration implies the eventual high efficiency. To that end, this study attempts to design a model that can not only capture the abstraction of the pipeline but also provides a testing environment for the impersonal influencers of CI/CD performance. The current study, therefore, aims to contribute (1) a pipeline model based on the logic of the queueing system and enabled by agent-based simulation, and (2) an experimental environment which allows the testing of different settings and operation scenarios.}
 }
